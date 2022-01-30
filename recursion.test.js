@@ -23,7 +23,7 @@ function pow(x, n) {
     // Write you logic here.
     if (n === 0) return 1;
     if (n == 1) return x;
-    return pow(x * x, n - 1);
+    return x * pow(x, n - 1);
 }
 
 /* The Fibonacci Series is a numeric series starting with the integers 0 and 1. In this series,
